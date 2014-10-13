@@ -1,0 +1,80 @@
+/* line 1, styles.scss */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 5, styles.scss */
+#canvas {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #828282;
+  border-radius: 3px;
+}
+
+/* line 12, styles.scss */
+#panelContiner {
+  float: right;
+}
+
+/* line 16, styles.scss */
+#panel {
+  width: 220px;
+  margin-right: 10px;
+}
+
+/* line 21, styles.scss */
+.flat {
+  height: 40px;
+  line-height: 40px;
+  margin: auto;
+  background: #3498db;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #2980b9;
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+/* line 36, styles.scss */
+#finishButton {
+  background: #2ecc71;
+  border-color: #27ae60;
+  display: none;
+}
+
+/* line 42, styles.scss */
+#prompt {
+  width: calc(100% - 40px);
+  height: 40px;
+  margin-left: 20px;
+  line-height: 40px;
+  display: none;
+  font-size: 20px;
+}
+
+/* line 51, styles.scss */
+#mousePos {
+  width: 60px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+/* line 58, styles.scss */
+#genGcode {
+  margin-bottom: 5px;
+}
+
+/* line 62, styles.scss */
+#zVal {
+  width: 30px;
+}
+
+/* line 66, styles.scss */
+.green {
+  background: #2ecc71;
+  border-color: #27ae60;
+}

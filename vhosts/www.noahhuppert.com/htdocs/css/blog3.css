@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+}
+.tile{
+	min-width: 200px;
+	min-height: 100px;
+	max-width: 200px;
+	max-height: 300px;
+	padding: 2px;
+	word-wrap: break-word;
+	border-width: 1px;
+	border-color: #BABABA;
+	border-radius: 4px;
+}
+.tile h4{
+	text-align: center;
+}
+.tile .content{
+	text-align: center;
+}
+.tile a{
+	color: #000000;
+	text-decoration: none;
+}
+li{
+	background: url(img/closedArrow.png);
+}

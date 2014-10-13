@@ -1,0 +1,183 @@
+body {
+	margin: 0;
+	//background: url('/Blog3/img/background4.jpg');
+	//background: linear-gradient(to bottom right, violet, orange, yellow, green, blue, indigo, violet);
+	background-repeat: repeat;
+}
+a {
+	font-style: normal;
+	text-decoration: none;
+	color: #2489ce;
+	font-weight: 700;
+}
+a : hover{
+	text-decoration: none;
+}
+summary{
+	outline: none;
+}
+#HTML5Message{
+	display: none;
+	text-align: center;
+	padding: 5px;
+}
+#content {
+	min-height: 700px;
+	max-width: 1440px;
+	padding: 10px;
+	border-style: solid;
+	border-width: 30px;
+	border-color: #F5F5F5;
+	border-top-width: 15px;
+	box-shadow: 0px 50px 200px #F5F5F5;
+}
+#navContainer {
+	width: 500px;
+	margin: auto;
+}
+#navBar {
+	width: 350px;
+	margin-left: 110px;
+}
+#headerImage {
+	margin-left: 10px;
+}
+.navMenuOption {
+	height: 100px;
+	line-height: 100px;
+	font-family: Sonsie One;
+	font-size: 24px;
+	cursor: pointer;
+}
+#blogMenuOptions {
+	width: 410px;
+	margin-left: -15px;
+	z-index: 2;
+	position: absolute;
+}
+#blogMenuOptions a {
+	color: #000000;
+	font-family: Sonsie One;
+	font-weight: normal;
+}
+#portfolioMenuOptions {
+	width: 410px;
+	margin-left: -110px;
+	z-index: 2;
+	position: absolute;
+}
+#portfolioMenuOptions a {
+	color: #000000;
+	font-family: Sonsie One;
+	font-weight: normal;
+}
+#blogButton {
+	float: left;
+}
+#portfolioButton {
+	float: right;
+}
+#mNavBar{
+	min-height: 35px;
+	display: none;
+	background: #463265;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: 700;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #320C6E;
+}
+#mMenuButton{
+	font-size: 24px;
+	float: right;
+}
+#mOptions{
+	display: none;
+	width: 150px;
+	margin: auto;
+	padding-top: 30px;
+}
+.mHeaderOption{
+	
+}
+#mOptions ul{
+	list-style: none;
+}
+#mOptions a{
+	color: #FFFFFF;
+}
+.page{
+	display: none;
+}
+.skillsList{
+	max-width: 500px;
+	margin: auto;
+	text-align: left;
+	font-size: 18px;
+}
+.skillTitle{
+	margin-left: 25px;
+	width: 81px;
+	display:inline-block;
+}
+.largeTitles .skillTitle{
+	width: 140px;
+}
+.skillListDivider{
+	margin-left: 10px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+}
+.ratingStarContainer{
+	margin-left: 20px;
+}
+.altRatingStar{
+	margin-left: 25px;
+	display: none;
+	text-align: center;
+}
+.subStar{
+	opacity: 0.4;
+}
+.learningStar{
+	opacity: 0.5;
+	color: #0099FF;
+}
+summary a{
+	color: #000000;
+	font-weight: bold;
+}
+
+summary a:hover{
+	color: #000000;
+	font-weight: bold;
+}
+#opmlList{
+	padding: 20px;
+}
+.mobileCollapse{
+	display: none;
+	margin-left: 5px;
+	padding-left: 2px;
+	padding-right: 2px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	background: #A13333;
+	color: #FFFFFF;
+}
+.collapseAll{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 20px;
+	padding-left: 2px;
+	padding-right: 2px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+}
